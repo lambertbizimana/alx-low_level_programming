@@ -1,0 +1,5 @@
+#!/bin/bash
+
+	gcc -S 100-intel.c -o  100-intel.o
+
+
