@@ -1,0 +1,3 @@
+#!/bin/bash
+gcc -E 1-compiler.c -o 1-compiler.o
+
