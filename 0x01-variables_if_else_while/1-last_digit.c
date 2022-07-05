@@ -2,9 +2,18 @@
 #include <time.h>
 #include<stdio.h>
 
-/* more headers goes there */
+/**
+ *
+ *Main: always esecutes block of code 
+ *
+ *
+ *and will check last digit of string numbers
+ *
+ *
+ *
+ */
 
-/* betty style doc for function main goes there */
+
 int main(void)
 {
 		int n;
