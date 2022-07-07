@@ -3,6 +3,18 @@
 #include<string.h>
 #define NAME "_putchar"
 
+/**
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ */
+
 
 
 void printputch(char *s);
