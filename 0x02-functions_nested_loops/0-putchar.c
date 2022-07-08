@@ -1,7 +1,7 @@
 
 #include<stdio.h>
 #include<string.h>
-#define NAME "_putchar"
+
 
 /**
  *
@@ -17,37 +17,52 @@
 
 
 
-void printputch(char *s);
+   void printputs(char *s);
 
-int main()
+   int main(void)
 {
+	char *str;
 
-	char s[]="_putchar";
-	printputch(s);
-        putchar('\n');
+	str = "_putchar";
 
-return 0;
+	printputs(str);
 
+	return (0);
 
-}
-
-void printputch( char *s)
-{
-
-int i=0;
-
-while(s[i] != '\n' && s[i] != '\0' )
-{
-
- putchar(s[i]);
-
- i++;
 
 
 
 }
 
+void printputs(char *s)
+{
+
+  int lengths;
+
+  lengths=0;
+  
+ while (*s != '\0')
+ {
+ 
+   lengths++;
+   s++;
+ 
+ }
+
+ lengths--;
+
+ for(;  lengths>= 0; lengths-- )
+ {
+ 
+   putchar(s[lengths]);
+
+ 
+ }
+   putchar('\n');
+
+
 
 }
+
 
 
